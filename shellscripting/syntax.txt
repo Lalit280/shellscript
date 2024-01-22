@@ -1,0 +1,52 @@
+conditional statements
+
+if
+   
+    if [ condition ]
+    then
+         statements
+    fi
+
+if-else
+ 
+    if [ condition ]
+    then
+        statement1
+    else
+        statement2
+    fi
+
+if-else-elif
+
+    if [ condition ]
+    then
+        statement1
+    elif [ condition2 ]
+    then
+        statement2
+    else
+        statement3
+    fi
+
+looping statements
+
+for loop
+
+    for var in list
+            do
+               statements
+            done
+
+while loop
+
+    while [ condition ]
+          do
+             statements
+          done             [ if condition is true , it enters the loop ]
+
+until loop
+
+    until [ condition ]
+          do
+            statements
+          done             [ if conditions is false , it enters the loop ]
